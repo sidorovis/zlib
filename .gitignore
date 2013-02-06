@@ -21,3 +21,16 @@
 /minigzip64
 /minigzipsh
 /zlib.pc
+
+gvmat*.obj
+inffas*.obj
+inffas32.lst
+match*.obj
+match686.lst
+
+contrib/vstudio/vc8/x64
+contrib/vstudio/vc8/x86
+
+*.vcproj.*
+*.ncb
+*.suo
