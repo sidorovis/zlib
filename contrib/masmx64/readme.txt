@@ -29,3 +29,9 @@ ml64.exe is given with Visual Studio 2005, Windows 2003 server DDK
 
 You can get Windows 2003 server DDK with ml64 and cl for AMD64 from
   http://www.microsoft.com/whdc/devtools/ddk/default.mspx for low price)
+
+Microsoft Visual Studio 2005 Win64 note
+---------------------------------------
+If you meet problem with compiling by bld_ml64.bat. Use next command to compile object files:
+ml64.exe /c /Zi inffasx64.asm
+ml64.exe /c /Zi gvmat64.asm
